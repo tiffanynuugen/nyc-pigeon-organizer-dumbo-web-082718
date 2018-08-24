@@ -10,11 +10,3 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-
-data[:color].each do |attribute, name_array|
-    name_array.each do |name|
-      if data[:color][attribute].include?(name)
-        new_pigeon_data[name][:color] << attribute.to_s
-      end
-    end
-  end
