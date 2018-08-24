@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |info, description|
     description.each do |attribute, name|
     binding.pry
-    new_hash << description["name"]
+    new_hash << data["name"]
   end
  end
 end
