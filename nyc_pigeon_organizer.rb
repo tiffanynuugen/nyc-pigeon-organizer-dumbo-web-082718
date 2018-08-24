@@ -32,6 +32,5 @@ def nyc_pigeon_organizer(data)
         new_pigeon_data[name][:lives] << attribute
       end
     end
-  end
   new_pigeon_data
 end
