@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  
+
   data[:lives].each do |attribute, name_array|
     name_array.each do |name|
       if data[:lives][attribute].include?(name)
@@ -33,6 +33,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  binding.pry
   new_pigeon_data
 end
